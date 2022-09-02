@@ -20,9 +20,9 @@ export default function Item(props) {
       <h5>
         {"En stock:"} {cantidad > 0 ? cantidad : <span>{"agotado"}</span>}
       </h5>
-      <button disabled={cantidad === 0} onClick={comprarItem}>
-        {"Comprar"}
-      </button>
+        <button disabled={cantidad === 0} onClick={comprarItem}>
+          {"Comprar"}
+        </button>
     </div>
   );
 }

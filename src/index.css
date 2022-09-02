@@ -59,7 +59,7 @@ header p span {
   color: rgb(155, 0, 0);
   border-radius: 3px;
 }
-.producto div button{
+.producto button{
   padding: 5px;
   text-transform: uppercase;
 }
